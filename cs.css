@@ -1,0 +1,56 @@
+.frame1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    text-align: center;
+}
+.frame2{
+
+    width: 25%;
+    height: 5%;
+    background-color: aqua;
+    border-radius: 13px;
+
+}
+
+
+img{
+width: 50%;
+border-radius: 10px;
+}
+
+.cir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cir div{
+border-radius: 50%;
+height: 60px;
+width: 60px;
+margin: 20px;
+background-color: #fff;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+
+#progress {
+    -webkit-appearance: none;
+    width: 70%;
+    height: 6px;
+    background-color: beige;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: coral;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border: solid;
+}
